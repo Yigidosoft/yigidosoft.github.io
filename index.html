@@ -85,12 +85,12 @@ Hemen siz de mükemmel bir web sitesi sahibi olun ve acımasız başarıyı keş
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#welcome" class="menu-item">Ana Sayfa</a></li>
-                            <li class="scroll-to-section"><a href="#about" class="menu-item">Hizmetlerimiz</a></li>
+                            <li class="scroll-to-section mylink"><a href="#welcome" class="menu-item">Ana Sayfa</a></li>
+                            <li class="scroll-to-section mylink"><a href="#about" class="menu-item">Hizmetlerimiz</a></li>
                             <!--
                             <li class="scroll-to-section"><a href="#testimonials" class="menu-item">Referanslar</a></li>
                             -->                            
-                            <li class="scroll-to-section"><a href="https://github.com/Yigidosoft/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                            <li class="scroll-to-section mylink"><a href="https://github.com/Yigidosoft/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                             <!-- DROPDOWN MENU 
                                 <li class="submenu">
                                 <a href="javascript:;">Drop Down</a>
@@ -104,7 +104,7 @@ Hemen siz de mükemmel bir web sitesi sahibi olun ve acımasız başarıyı keş
 
                             -->
                             
-                            <li class="scroll-to-section"><a href="#contact-us" class="menu-item">Teklif Al</a></li>
+                            <li class="scroll-to-section mylink"><a href="#contact-us" class="menu-item">Teklif Al</a></li>
                             
                         </ul>
                         <a class='menu-trigger'>
@@ -331,11 +331,8 @@ Hemen siz de mükemmel bir web sitesi sahibi olun ve acımasız başarıyı keş
     </footer>
 	<script type="text/javascript">
 
-		$(window).on('hashchange', function(e){ // listen if hashtag is being added to the URL
-
-		location.href = location.href.replace(location.hash,"") //replace it with nothing
-		console.log("bam!"); //enjoy it
-
+		$('.mylink').click(function(event){
+		    event.preventDefault();
 		});
 
 	</script>
