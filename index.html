@@ -329,7 +329,16 @@ Hemen siz de mükemmel bir web sitesi sahibi olun ve acımasız başarıyı keş
             </div>
         </div>
     </footer>
+	<script type="text/javascript">
 
+		$(window).on('hashchange', function(e){ // listen if hashtag is being added to the URL
+
+		location.href = location.href.replace(location.hash,"") //replace it with nothing
+		console.log("bam!"); //enjoy it
+
+		});
+
+	</script>
   
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
