@@ -331,10 +331,14 @@ Hemen siz de mükemmel bir web sitesi sahibi olun ve acımasız başarıyı keş
     </footer>
 	<script type="text/javascript">
 
-		$('.mylink').click(function(event){
-		    event.preventDefault();
-		});
+		$('.mylink').click(function (evt) {
+		evt.preventDefault();
+		var anchor = $(this).text();
 
+		$('html, body').animate({
+		    scrollTop: $('#' + anchor).offset().top
+		}, 1500);
+	   	 });
 	</script>
   
     <!-- jQuery -->
