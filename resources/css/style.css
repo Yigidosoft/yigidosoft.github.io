@@ -1898,42 +1898,42 @@ body.light {
 }
 
 body.light header .logo a {
-    border-color: #0e0e11;
-    color: #0e0e11
+    border-color: #fff;
+    color: #fff
 }
 
 body.light header .logo a .v2::before {
-    border-color: #ecedf1
+    border-color: #0e0e11
 }
 
 body.light header .menu ul li a {
-    color: #0e0e11
+    color: #fff
 }
 
 body.light header .menu .btn {
-    background: #0e0e11;
-    color: #ecedf1
+    background: #fff;
+    color: #0e0e11
 }
 
 body.light .button {
     color: #0e0e11;
-    border-color: #0e0e11
+    border-color: #fff
 }
 
 body.light .button::before {
-    background: #0e0e11
+    background: #fff
 }
 
 body.light .button:hover {
-    color: #fff
-}
-
-body.light h3 {
     color: #0e0e11
 }
 
+body.light h3 {
+    color: #fff
+}
+
 body.light h3::before {
-    border-color: #ecedf1
+    border-color: #0e0e11
 }
 
 body.light main .hello-banner .inner a {
