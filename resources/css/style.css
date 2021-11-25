@@ -1898,8 +1898,8 @@ body.light {
 }
 
 body.light header .logo a {
-    border-color: #fff;
-    color: #fff
+    border-color: #0e0e11;
+    color: #0e0e11
 }
 
 body.light header .logo a .v2::before {
