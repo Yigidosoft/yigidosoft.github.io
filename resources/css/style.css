@@ -703,7 +703,7 @@ main .latest-work ul li a .hover {
 
 main .latest-work ul li a .hover .title {
     font-size: 18px;
-    color: #0e0e11;
+    color: #fff;
     display: block;
     letter-spacing: 1px;
     margin-bottom: 10px
@@ -1316,10 +1316,10 @@ main .get-offer .form-container .form-upload .text {
     height: 50px;
     display: inline-flex;
     box-sizing: border-box;
-    color: #0e0e11;
+    color: #fff;
     align-items: center;
     padding: 0 25px;
-    border: 3px solid #0e0e11
+    border: 3px solid #fff
 }
 
 main .get-offer .form-container .form-upload .text i {
@@ -1440,8 +1440,8 @@ footer .container .social ul li a i {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #0e0e11;
-    border-right: 3px solid #0e0e11;
+    color: #fff;
+    border-right: 3px solid #fff;
     margin-right: 20px
 }
 
@@ -1470,7 +1470,7 @@ footer .container .social ul li a i.icon-github {
 }
 
 footer .container .social ul li a:hover {
-    color: #0e0e11
+    color: #fff
 }
 
 footer .container .social ul li a:hover::before {
@@ -1509,7 +1509,7 @@ footer .container .phone {
     align-items: center;
     justify-content: center;
     margin: 25px auto;
-    color: #0e0e11;
+    color: #fff;
     font-size: 30px
 }
 
@@ -2384,7 +2384,7 @@ body.light footer .container .social ul li a i {
         position: absolute;
         top: 0;
         left: 0;
-        border-right: 3px solid #0e0e11
+        border-right: 3px solid #fff
     }
     footer .container .social ul li.whatsapp a span {
         display: block;
