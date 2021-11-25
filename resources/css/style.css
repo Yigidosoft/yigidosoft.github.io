@@ -429,7 +429,7 @@ main .blog-load-more-btn {
 }
 
 main .blog-single {
-    border: 3px solid rgba(255, 255, 255, .2);
+    border: 3px solid rgba(58, 58, 58, 0.2);
     padding: 20px 30px;
     margin-bottom: 2%;
     display: flex;
@@ -444,7 +444,7 @@ main .blog-single header h6 {
 }
 
 main .blog-single header h6 a {
-    color: #fff
+    color: #0e0e11
 }
 
 main .blog-single header .inner {
