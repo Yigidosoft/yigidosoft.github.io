@@ -2398,8 +2398,8 @@ body.light footer .container .social ul li a i {
     display: block;
     overflow-x: auto;
     padding: .5em;
-    color: #abb2bf;
-    background: rgba(0, 0, 0, 0.3)
+    color: #fff;
+    background: rgb(0, 0, 0)
 }
 
 .hljs-comment,
