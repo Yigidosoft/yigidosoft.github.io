@@ -1913,7 +1913,7 @@ body.light header .menu ul li a {
 body.light header .menu .btn {
     background: #fff;
     color: #0e0e11;
-    border-color: #0e0e11;
+    border: 3px solid #0e0e11;
 }
 
 body.light .button {
