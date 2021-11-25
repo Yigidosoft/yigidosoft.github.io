@@ -703,7 +703,7 @@ main .latest-work ul li a .hover {
 
 main .latest-work ul li a .hover .title {
     font-size: 18px;
-    color: #fff;
+    color: #0e0e11;
     display: block;
     letter-spacing: 1px;
     margin-bottom: 10px
@@ -1316,10 +1316,10 @@ main .get-offer .form-container .form-upload .text {
     height: 50px;
     display: inline-flex;
     box-sizing: border-box;
-    color: #fff;
+    color: #0e0e11;
     align-items: center;
     padding: 0 25px;
-    border: 3px solid #fff
+    border: 3px solid #0e0e11
 }
 
 main .get-offer .form-container .form-upload .text i {
@@ -2384,7 +2384,7 @@ body.light footer .container .social ul li a i {
         position: absolute;
         top: 0;
         left: 0;
-        border-right: 3px solid #fff
+        border-right: 3px solid #0e0e11
     }
     footer .container .social ul li.whatsapp a span {
         display: block;
