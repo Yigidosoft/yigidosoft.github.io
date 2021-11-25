@@ -140,7 +140,7 @@
 
 ::selection {
     background: #f67521;
-    color: #fff
+    color: #0e0e11
 }
 
 ::-moz-selection {
@@ -149,7 +149,7 @@
 }
 
 body {
-    background: #0e0e11;
+    background: #fff;
     -webkit-font-smoothing: antialiased;
     font-family: Merriweather, sans-serif
 }
