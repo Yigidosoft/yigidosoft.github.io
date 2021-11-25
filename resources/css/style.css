@@ -163,9 +163,9 @@ body {
     padding: 0 25px;
     font-size: 15px;
     font-weight: 500;
-    color: #fff;
+    color: #0e0e11;
     box-sizing: border-box;
-    border: 3px solid #fff;
+    border: 3px solid #0e0e11;
     background: transparent;
     transition: 500ms color;
     position: relative;
