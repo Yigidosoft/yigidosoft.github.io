@@ -2479,7 +2479,7 @@ body.light footer .container .social ul li a i {
     width: 100%;
     display: inline-block;
     height: 110%;
-    margin-bottom: 1200px;
+    margin-top: -1000px;
 }
 .left-image-decor {
     background-image: url(https://www.yigidosoft.com/assets/images/left-bg-decor.png);
