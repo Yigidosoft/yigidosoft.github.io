@@ -2475,7 +2475,7 @@ body.light footer .container .social ul li a i {
     background-image: url(https://www.yigidosoft.com/assets/images/right-bg-decor.png);
     background-repeat: no-repeat;
     background-position: right center;
-    position: absolute;
+    position: relative;
     width: 100%;
     display: inline-block;
     height: 110%;
@@ -2484,7 +2484,7 @@ body.light footer .container .social ul li a i {
 .left-image-decor {
     background-image: url(https://www.yigidosoft.com/assets/images/left-bg-decor.png);
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
     width: 100%;
     display: inline-block;
     height: 110%;
