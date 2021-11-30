@@ -268,7 +268,7 @@ header .menu .btn {
     font-weight: 500;
     color: #0e0e11;
     border: 1px solid #0e0e11;
-    background: #fff;
+    background: #f5f6f7;
     position: relative;
     transition: 300ms color;
     z-index: 1
