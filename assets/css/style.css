@@ -816,7 +816,7 @@ promotion
 
 /*
 --------------------------------------------
-testimonials
+projects
 --------------------------------------------
 */
 .right-image-decor {
@@ -830,24 +830,24 @@ testimonials
   margin-top: -200px;
 }
 
-#testimonials {
+#projects {
   padding-top: 100px;
   position: relative;
   z-index: 9;
 }
 
-#testimonials .item {
+#projects .item {
   position: relative;
 }
 
-#testimonials .item .testimonial-browser{
+#projects .item .testimonial-browser{
   width: 100%;
   min-width: 50%;
   border: 1px solid #111;
   border-radius: 5px;
 }
 
-#testimonials .item .testimonial-browser .title{
+#projects .item .testimonial-browser .title{
   height: 30px;
   background: linear-gradient(
     145deg, rgb(244, 160, 63) 0%, rgb(243, 185, 26) 100%);
@@ -857,7 +857,7 @@ testimonials
   border-top-right-radius: 5px;
 }
 
-#testimonials .item .testimonial-browser .title span{
+#projects .item .testimonial-browser .title span{
   width: 8px;
   height: 8px;
   background: #111;
@@ -866,7 +866,7 @@ testimonials
   margin-left: 30px
 }
 
-#testimonials .item .testimonial-browser .title span::before{
+#projects .item .testimonial-browser .title span::before{
   content: "";
   width: inherit;
   height: inherit;
@@ -877,7 +877,7 @@ testimonials
   left: -15px
 }
 
-#testimonials .item .testimonial-browser .title span::after{
+#projects .item .testimonial-browser .title span::after{
   content: "";
   width: inherit;
   height: inherit;
@@ -888,7 +888,7 @@ testimonials
   right: -15px
 }
 
-#testimonials .item .testimonial-browser .content{
+#projects .item .testimonial-browser .content{
   height: 300px;
   background-size: cover;
   transition: 5s all;
@@ -898,11 +898,11 @@ testimonials
   border-bottom-right-radius: 5px;
 }
 
-#testimonials .item .testimonial-browser .content.content:hover {
+#projects .item .testimonial-browser .content.content:hover {
   background-position: bottom
 }
 
-#testimonials .item .testimonial-content {
+#projects .item .testimonial-content {
   background: rgb(244,129,63);
   background: linear-gradient(145deg, rgb(244, 160, 63) 0%, rgb(243, 185, 26) 100%);
   margin-left: 60px;
@@ -911,36 +911,36 @@ testimonials
   border-radius: 5px;
 }
 
-#testimonials .item .testimonial-content ul li {
+#projects .item .testimonial-content ul li {
   display: inline-block;
   margin: 0px 1px;
 }
 
-#testimonials .item .testimonial-content ul li i {
+#projects .item .testimonial-content ul li i {
   color: #fff;
   font-size: 13px;
 }
 
-#testimonials .item .testimonial-content h4 {
+#projects .item .testimonial-content h4 {
   font-size: 22px;
   margin-top: 20px;
   color: #fff;
 }
 
-#testimonials .item .testimonial-content p {
+#projects .item .testimonial-content p {
   color: #fff;
   font-style: italic;
   font-weight: 200;
   margin: 20px 0px 15px 0px;
 }
 
-#testimonials .item .testimonial-content span {
+#projects .item .testimonial-content span {
   color: #fff;
   font-weight: 200;
   font-size: 13px;
 }
 
-#testimonials .author img {
+#projects .author img {
   max-width: 120px;
   margin-bottom: -60px;
 }
