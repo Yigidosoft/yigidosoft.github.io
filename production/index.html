@@ -378,22 +378,22 @@
                                 <div class="form-container form-container-card">
                                     <!-- Message form container -->
                                     <form class="message form" method="post"
-                                          id="formMessage">
+                                          id="formMessage" name="formMessage" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfScvq22oxZ33BBm0P_P5LDYmywBTttvhNw5f68L6N3WcfwyA/formResponse">
                                         <div class="form-group name">
                                             <label for="fullname">İsim</label>
-                                            <input id="fullname" name="fullname" type="text" placeholder=""
+                                            <input id="fullname" name="entry.2041403057" type="text" placeholder=""
                                                    class="form-control-line form-success-clean"
                                                    required>
                                         </div>
                                         <div class="form-group email">
                                             <label for="email">E-Posta</label>
-                                            <input id="email" type="email" placeholder="" name="email"
+                                            <input id="email" type="email" placeholder="" name="emailAddress"
                                                    class="form-control-line form-success-clean"
                                                    required>
                                         </div>
                                         <div class="form-group no-border">
                                             <label for="message">Mesaj</label>
-                                            <textarea id="message" name="message"
+                                            <textarea id="message" name="entry.1060635606"
                                                       class="form-control form-control-outline thick form-success-clean"
                                                       required></textarea>
 
@@ -404,11 +404,11 @@
                                         </div>
 
                                         <div class="btns">
-                                            <button id="submit-message"
+                                            <button type="submit" id="submit-message"
                                                     class="btn btn-outline-white btn-full email_b"
                                                     name="submit_message">
                                                 <i class="icon ion-paper-airplane mr-2"></i>
-                                                <span class="txt">Gönder</span>
+                                                <span type="submit" class="txt">Gönder</span>
                                                 <span class="arrow-icon"></span>
                                             </button>
                                             <a class="btn btn-transparent btn-left-hover btn-border-none text-center"
@@ -417,7 +417,7 @@
                                             </a>
                                         </div>
                                     </form>
-                                </div>
+                                 </div>
                             </div>
                         </div>
                     </div>
@@ -479,5 +479,20 @@
 <!-- Main Script -->
 <script src="resources/js/custom.js"></script>
 <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+$('#formMessage').submit(function (event) {
+    event.preventDefault()
+    var extraData = {}
+    $('#formMessage').ajaxSubmit({
+        data: extraData,
+        dataType: 'jsonp',
+        error: function () {
+            swal('Yanıtınız Kaydedildi. Teşekkürler.')
+        }
+    })
+})
+</script>
 </body>
 </html>
