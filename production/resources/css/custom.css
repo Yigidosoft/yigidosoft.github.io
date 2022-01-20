@@ -65,7 +65,9 @@ video {
     color: #000;
     padding: 0.2em 0;
 }
-
+*{
+    cursor: none;
+}
 body {
     font-family: "Open Sans", "Opensans", "Roboto", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
     font-size: 1rem;
@@ -92,7 +94,7 @@ ul, li {
 
 a {
     color: #f2b125;
-    cursor: pointer;
+    cursor: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
