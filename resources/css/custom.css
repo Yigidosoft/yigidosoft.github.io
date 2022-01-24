@@ -7163,7 +7163,7 @@ h1, h2, h3, h4 {
     background-color: #555;
 }
 .cursor-dot-outline {
-    width: 40px;
-    height: 40px;
-    background-color: rgba(0, 0, 0, 0.5);
+    width: 30px;
+    height: 30px;
+    border: 2px solid #555;
 }

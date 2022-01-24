@@ -334,7 +334,7 @@ $(document).on('ready', function () {
 // Custom Cursor
 
 var cursor = {
-    delay: 8,
+    delay: 6,
     _x: 0,
     _y: 0,
     endX: (window.innerWidth / 2),
