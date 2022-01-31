@@ -4565,6 +4565,17 @@ textarea {
     z-index: 10;
     display: inline-flex;
 }
+.page-footer .footer-left a{
+    color:#414141;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.page-footer .footer-left a:hover{
+    color:#f2b125;
+    text-decoration: none;
+}
 
 .page-footer .note {
     position: relative;
