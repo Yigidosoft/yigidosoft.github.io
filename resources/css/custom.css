@@ -2855,6 +2855,48 @@ textarea {
     padding: 0;
     display: block;
 }
+.browser-mockup {
+    width: 84%;
+    height: 350px;
+    border-top: 2em solid rgba(230, 230, 230, 0.7);
+    box-shadow: 0 0.1em 1em 0 rgba(0, 0, 0, 0.2);
+    position: relative;    
+    border-radius: 5px;
+    left: 1.5em;
+  }
+  
+  .browser-mockup:before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: -1.25em;
+    left: 1em;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+    background-color: #f44;
+    box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+  }
+  .browser-mockup > * {
+    display: block;
+  }
+  .browser-mockup {
+    margin: 2em;
+    flex: 1;
+  }
+  
+  .browser-mockup .content{
+    height: 350px;
+    background-size: cover;
+    transition: 5s all;
+    border: 5px solid linear-gradient(
+    145deg, rgb(244, 160, 63) 0%, rgb(243, 185, 26) 100%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .browser-mockup .content.content:hover{
+    background-position: bottom;
+  }
 
 @media (min-width: 768px) {
     .carousel-swiper-beta .slider-container .item-wrapper {
@@ -2967,7 +3009,7 @@ textarea {
 .carousel-swiper-beta .slider-container .swiper-slide {
     position: relative;
     -webkit-transition: 0.3s;
-    transition: 0.3s;
+    transition: 0.3s;    
 }
 
 .carousel-swiper-beta .slider-container .swiper-slide-active .illustr {
@@ -5105,7 +5147,7 @@ textarea {
 
 .section .section-wrapper {
     width: 100%;
-    max-width: 800px;
+    max-width: 700px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
