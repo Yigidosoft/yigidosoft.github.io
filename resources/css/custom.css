@@ -7015,7 +7015,26 @@ textarea {
         text-align: center !important;
     }
 }
-
+.home-buttons{
+    margin-top: 2rem;
+}
+.home-buttons a{
+    border-radius: 5px;
+    padding: 12px;
+    text-align: center;
+    background-color: #555;
+    margin: 5px;
+}
+.home-buttons a>svg{
+    box-sizing: border-box;
+    margin: 8px auto;
+}
+.home-buttons a#dc-icon:hover{
+    background: #7289da!important;
+}
+.home-buttons a#gp-icon:hover {
+    background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);
+}
 .strong,
 strong {
     font-weight: bold;
