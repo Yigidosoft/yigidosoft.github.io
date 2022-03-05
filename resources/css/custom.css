@@ -6996,6 +6996,7 @@ textarea {
     text-align: center;
     background-color: #555;
     margin: 5px;
+    text-decoration: none;
 }
 .home-buttons a>svg{
     box-sizing: border-box;
