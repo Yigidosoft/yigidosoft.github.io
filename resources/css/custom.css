@@ -7270,3 +7270,12 @@ h1, h2, h3, h4 {
     10% { transform: translateY(0); opacity: 1; }
     100% { transform: translateY(15px); opacity: 0;}
   }
+
+.mailto a{
+    text-decoration: none;      
+    color: #555;
+}
+.mailto a:hover{
+    text-decoration: none;      
+    color: #f2b125;
+}
