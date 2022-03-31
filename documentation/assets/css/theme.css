@@ -13152,3 +13152,9 @@ a.text-link:hover {
         padding-top: 0.5rem
     }
 }
+
+@media (max-width: 768px){
+    .docs-content{
+        overflow-x: hidden;
+    }
+}
