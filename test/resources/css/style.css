@@ -279,7 +279,7 @@ html {
         display: block;
     }
 
-    .navbar{
+    .navbar {
         padding: 40px 10px;
     }
 }
@@ -417,15 +417,17 @@ html {
     padding: 0 10px;
 }
 
-@media screen and (max-width: 860px){
-    .home-info{
+@media screen and (max-width: 860px) {
+    .home-info {
         margin-top: 50px;
     }
-    .home-info h1{
+
+    .home-info h1 {
         line-height: 1.5em;
         margin-bottom: 10px;
     }
-    .color-primary{
+
+    .color-primary {
         display: none;
     }
 }
@@ -437,33 +439,38 @@ html {
     background-size: 100% auto;
 }
 
-@media screen and (max-width: 1200px) {    
-    .phone-image-div{
+@media screen and (max-width: 1200px) {
+    .phone-image-div {
         height: 855px;
     }
 }
-@media screen and (max-width: 900px) {    
-    .phone-image-div{
+
+@media screen and (max-width: 900px) {
+    .phone-image-div {
         height: 655px;
     }
 }
-@media screen and (max-width: 720px) {    
-    .phone-image-div{
+
+@media screen and (max-width: 720px) {
+    .phone-image-div {
         height: 555px;
     }
 }
-@media screen and (max-width: 670px) {    
-    .phone-image-div{
+
+@media screen and (max-width: 670px) {
+    .phone-image-div {
         height: 455px;
     }
 }
-@media screen and (max-width: 485px) {    
-    .phone-image-div{
+
+@media screen and (max-width: 485px) {
+    .phone-image-div {
         height: 355px;
     }
 }
-@media screen and (max-width: 340px) {    
-    .phone-image-div{
+
+@media screen and (max-width: 340px) {
+    .phone-image-div {
         height: 225px;
     }
 }
@@ -495,7 +502,7 @@ html {
 }
 
 .container-title p {
-    max-width: 689px;
+    max-width: 859px;
     text-align: center;
     font-size: var(--font-size-20);
     color: var(--black);
@@ -503,6 +510,11 @@ html {
     font-weight: normal;
     line-height: 1.6em;
     padding: 0 10px;
+}
+
+.container-title p a {
+    text-decoration: none;
+    color: var(--black);
 }
 
 .wordaily-app-background {
@@ -571,13 +583,13 @@ html {
         right: auto;
     }
 
-    .left-app-panel .bg-product{
+    .left-app-panel .bg-product {
         margin: auto;
         left: 0px;
     }
 
     .wallsdrobe-app-background .right-app-panel {
-        width: 280px;        
+        width: 280px;
         left: 5%;
     }
 
@@ -586,8 +598,8 @@ html {
         margin: auto;
         right: auto;
     }
-    
-    .right-app-panel .bg-product{
+
+    .right-app-panel .bg-product {
         margin: auto;
         left: 0px;
     }
@@ -858,4 +870,129 @@ footer .bottom-details .bottom_text {
     footer .content .link-boxes .input-box {
         width: 100%;
     }
+}
+
+.web-project-slider {
+    margin: auto;
+    max-width: 1320px;
+    height: 680px;
+    position: relative;
+    vertical-align: baseline;
+    object-fit: cover;
+    margin-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+.browser-mockup {
+    max-width: 1250px;
+    height: 550px;
+    border-top: 2em solid #232133;
+    box-shadow: var(--shadow, 0 1px 4px rgba(0, 0, 0, .6));
+    position: relative;
+    border-radius: 5px;
+}
+
+.browser-mockup:before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: -1.25em;
+    left: 1em;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+    background-color: #f44;
+    box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #fb5, 3em 0 0 2px #9b3;
+}
+
+.browser-mockup>* {
+    display: block;
+}
+
+.browser-mockup {
+    margin: 2em;
+    flex: 1;
+    transform: translateZ(0);
+}
+
+.browser-mockup .image-content {
+    height: 550px;
+    background-size: cover;
+    border: 5px solid linear-gradient(145deg, rgb(244, 160, 63) 0%, rgb(243, 185, 26) 100%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 1s all;
+    display: none;
+}
+
+.browser-mockup .arrow-left i {
+    font-size: 70px;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    cursor: pointer;
+}
+
+.browser-mockup .arrow-left i:hover {
+    color: var(--primary-color);
+}
+
+.browser-mockup .arrow-right i:hover {
+    color: var(--primary-color);
+}
+
+.browser-mockup .arrow-right i {
+    font-size: 70px;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    cursor: pointer;
+}
+
+.browser-mockup .image-content.image-content:hover {
+    transition: 5s all;
+    background-position: bottom;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .browser-mockup .arrow-right i,
+    .browser-mockup .arrow-left i {
+        font-size: 40px;
+    }
+
+}
+
+@media only screen and (max-device-width: 768px) {
+    .browser-mockup {
+        height: 750px;
+    }
+
+    .browser-mockup .image-content {
+        height: 750px;
+    }
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.dot {
+    height: 8px;
+    width: 30px;
+    background-color: #232133;
+    display: inline-block;
+}
+
+.dot.active {
+    background-color: var(--primary-color);
+}
+
+.dot:hover {
+    background-color: var(--primary-color);
 }
