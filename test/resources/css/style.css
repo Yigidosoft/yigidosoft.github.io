@@ -374,6 +374,7 @@ html {
     text-decoration: none;
     cursor: pointer;
     vertical-align: baseline;
+    padding: 0 10px;
 }
 
 .product .product-title p {
@@ -402,6 +403,7 @@ html {
     font-weight: bold;
     line-height: 3;
     vertical-align: baseline;
+    padding: 0 10px;
 }
 
 .home-info p {
@@ -416,6 +418,9 @@ html {
 }
 
 @media screen and (max-width: 860px){
+    .home-info{
+        margin-top: 50px;
+    }
     .home-info h1{
         line-height: 1.5em;
         margin-bottom: 10px;
