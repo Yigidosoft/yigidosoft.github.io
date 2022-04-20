@@ -211,7 +211,7 @@ html {
 .logo-panel .logo-text a {
     color: var(--black);
     font-family: var(--font_0);
-    font-size: var(--font-size-20);
+    font-size: 20px;
     font-weight: normal;
     text-decoration: none;
     cursor: pointer;
@@ -276,8 +276,11 @@ html {
     }
 
     .navbar .nav-btn {
-        float: right;
         display: block;
+    }
+
+    .navbar{
+        padding: 40px 10px;
     }
 }
 
@@ -381,6 +384,7 @@ html {
     text-decoration: none;
     cursor: pointer;
     vertical-align: baseline;
+    padding: 0 10px;
 }
 
 .home-info {
@@ -408,12 +412,16 @@ html {
     font-family: var(--font_1);
     font-weight: normal;
     margin: auto;
+    padding: 0 10px;
 }
 
 @media screen and (max-width: 860px){
     .home-info h1{
         line-height: 1.5em;
         margin-bottom: 10px;
+    }
+    .color-primary{
+        display: none;
     }
 }
 
@@ -489,6 +497,7 @@ html {
     font-family: var(--font_1);
     font-weight: normal;
     line-height: 1.6em;
+    padding: 0 10px;
 }
 
 .wordaily-app-background {
