@@ -52,7 +52,7 @@
         --font-size-20: 15px;
         --font-size-28: 18px;
         --font-size-44: 26px;
-        --font-size-70: 36px;
+        --font-size-70: 34px;
     }
 
 }
@@ -156,7 +156,7 @@ html {
     outline: none;
     background-color: #232133;
     color: white;
-    border: 3px solid var(--border-color);
+    border: 3px solid var(--white);
     cursor: pointer;
     padding: 10px;
     border-radius: 10px;
@@ -308,14 +308,14 @@ html {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: var(--white);
     display: block;
     transition: 0.3s;
 }
 
 .mobile-menu a:hover,
 .mobile-menu a:focus {
-    color: #f1f1f1;
+    color: var(--white);
 }
 
 .mobile-menu .closebtn {
