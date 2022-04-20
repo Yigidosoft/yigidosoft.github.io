@@ -966,6 +966,7 @@ footer .bottom-details .bottom_text {
 
 }
 
+/*
 @media only screen and (max-device-width: 768px) {
     .browser-mockup {
         height: 750px;
@@ -975,6 +976,7 @@ footer .bottom-details .bottom_text {
         height: 750px;
     }
 }
+*/
 
 .pagination {
     text-align: center;
@@ -996,3 +998,4 @@ footer .bottom-details .bottom_text {
 .dot:hover {
     background-color: var(--primary-color);
 }
+
