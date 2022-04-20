@@ -469,6 +469,12 @@ html {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .phone-image-div {
+        height: 280px;
+    }
+}
+
 @media screen and (max-width: 340px) {
     .phone-image-div {
         height: 225px;
