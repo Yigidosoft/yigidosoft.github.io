@@ -36,12 +36,30 @@ function reveal() {
 window.addEventListener("scroll", reveal);
 
 // mobile menu
+
+function disableScroll() {
+  // Get the current page scroll position
+  scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+
+      // if any scroll is attempted, set this to the previous value
+      window.onscroll = function() {
+          window.scrollTo(scrollLeft, scrollTop);
+      };
+}
+
+function enableScroll() {
+  window.onscroll = function() {};
+}
+
 function openNav() {
   document.getElementById("mobile").style.width = "100%";
+  disableScroll();
 }
 
 function closeNav() {
   document.getElementById("mobile").style.width = "0%";
+  enableScroll();
 }
 
 
@@ -57,6 +75,7 @@ function plusDivs(n) {
 function currentDiv(n) {
   showDivs(slideIndex = n);
 }
+
 
 function showDivs(n) {
   var i;
