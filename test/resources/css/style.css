@@ -433,8 +433,8 @@ html {
 }
 
 .phone-image-div {
-    height: 1150px;
-    background-image: url("../images/app-hand.png");
+    height: 700px;
+    background-image: url("../images/app-two-hand.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
@@ -1011,7 +1011,11 @@ footer .bottom-details .bottom_text {
     height: 700px;
     padding: 150px;
 }
-
+@media only screen and (max-width: 768px) {
+    .contact-section {
+        padding: 10px;
+    }
+}
 .contact-section::before {
     content: "";
     position: absolute;
@@ -1020,7 +1024,7 @@ footer .bottom-details .bottom_text {
     width: 100%;
     height: 100%;
     background-image: url("../images/contact-bg.webp");
-    background-size: 100% 900px;
+    background-size: 100% auto;
     object-fit: cover;
     object-position: 50% 50%;
     background-repeat: no-repeat;
