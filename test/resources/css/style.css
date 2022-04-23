@@ -433,70 +433,36 @@ html {
 }
 
 .phone-image-div {
-    height: 700px;
+    width: 100%;
+    height: 667px;
     background-image: url("../images/app-two-hand.png");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: contain;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 650px){
     .phone-image-div {
-        height: 555px;
+        height: 30vh;
     }
 }
 
-@media screen and (max-width: 900px) {
-    .phone-image-div {
-        height: 410px;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    .phone-image-div {
-        height: 330px;
-    }
-}
-
-@media screen and (max-width: 670px) {
-    .phone-image-div {
-        height: 300px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .phone-image-div {
-        height: 225px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .phone-image-div {
-        height: 180px;
-    }
-}
-
-@media screen and (max-width: 340px) {
-    .phone-image-div {
-        height: 150px;
-    }
-}
 
 .container {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    margin-bottom: calc(100px + 5vh);
 }
 
 
 .container-title {
     align-items: center;
-    height: 380px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .container-title h2 {
@@ -533,7 +499,7 @@ html {
     position: relative;
     vertical-align: baseline;
     object-fit: cover;
-    margin-bottom: 100px;
+    margin-bottom: calc(100px + 5vh);
 }
 
 .wallsdrobe-app-background {
@@ -546,7 +512,7 @@ html {
     position: relative;
     vertical-align: baseline;
     object-fit: cover;
-    margin-bottom: 100px;
+    margin-bottom: calc(100px + 5vh);
 }
 
 .sw-app-background {
@@ -559,7 +525,7 @@ html {
     position: relative;
     vertical-align: baseline;
     object-fit: cover;
-    margin-bottom: 100px;
+    margin-bottom: calc(100px + 5vh);
 }
 
 
@@ -577,6 +543,9 @@ html {
     display: grid;
 }
 
+#sponsors{
+    margin-top: 100px;
+}
 @media screen and (max-width: 650px) {
     .left-app-panel {
         width: 280px;
