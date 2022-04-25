@@ -437,17 +437,6 @@ html {
     height: auto;
 }
 
-
-@media screen and (max-width: 650px){
-    .phone-image-div {
-        height: 30vh;
-    }
-    .blm-image-div {
-        height: 30vh;
-    }
-}
-
-
 .container {
     display: flex;
     justify-content: space-evenly;
