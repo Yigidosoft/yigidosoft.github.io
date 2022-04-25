@@ -432,16 +432,17 @@ html {
     }
 }
 
-.phone-image-div {
+.phone-image-div img{
     width: 100%;
-    height: 667px;
-    background-image: url("../images/app-two-hand.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+    height: auto;
 }
+
 
 @media screen and (max-width: 650px){
     .phone-image-div {
+        height: 30vh;
+    }
+    .blm-image-div {
         height: 30vh;
     }
 }
