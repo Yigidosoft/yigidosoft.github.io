@@ -966,7 +966,6 @@ footer .bottom-details .bottom_text {
     width: 100%;
     height: 500px;
     padding: 50px 50px 50px 170px; 
-    margin-bottom: 100px;
 }
 @media only screen and (max-width: 768px) {
     .contact-section {
@@ -1013,7 +1012,6 @@ footer .bottom-details .bottom_text {
     font-weight: normal;
     line-height: 1.6em;
     margin: 30px 0;
-    box-shadow: var(--shadow, 0 1px 4px rgba(0, 0, 0, .6));
 }
 
 .send-mail {
@@ -1038,4 +1036,277 @@ footer .bottom-details .bottom_text {
     background-color: transparent;
     color: var(--white);
     border: 3px solid var(--border-color);
+}
+
+.join-discord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+@media only screen and (max-width: 768px) {
+    .join-discord {
+        padding: 10px;
+    }
+}
+.join-discord::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/discord-bg.webp");
+    object-fit: cover;
+    object-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.jd-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jd-title h2 {
+    color: var(--white);
+    font-family: var(--font_1);
+    font-weight: bold;
+    font-size: var(--font-size-44);
+}
+
+.jd-title p {
+    max-width: 859px;
+    font-size: var(--font-size-15);
+    color: var(--white);
+    font-family: var(--font_1);
+    font-weight: normal;
+    line-height: 1.6em;
+    margin: 20px 0;
+}
+
+.jd-title a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 0.7em;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+.jd-title a i{
+    width: 22px;
+}
+
+.jd-title a:hover{
+    background-color:red;
+    color: var(--white);
+}
+
+.about-home{
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    height: 769px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+@media only screen and (max-width: 768px) {
+    .about-home {
+        padding: 10px;
+    }
+}
+.about-home::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/about-bg.webp");
+    background-size: 100% auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+    background-attachment: fixed;
+}
+
+.about-title {
+    height: 380px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10% 5% 5% 10%; 
+    
+}
+.about-title h5{
+    color: var(--white);
+    font-family: var(--font_1);
+    font-weight: bold;
+    font-size: var(--font-size-14);
+
+}
+.about-title h2 {
+    max-width: 550px;
+    color: var(--white);
+    font-family: var(--font_1);
+    font-weight: bold;
+    font-size: var(--font-size-70);
+}
+
+.about-title p {
+    max-width: 650px;
+    text-align: left;
+    font-size: var(--font-size-20);
+    color: var(--white);
+    font-family: var(--font_1);
+    font-weight: normal;
+    line-height: 1.6em;
+    margin: 30px 0;
+}
+
+
+.careers-home{
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    height: 769px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+@media only screen and (max-width: 768px) {
+    .careers-home {
+        padding: 10px;
+    }
+}
+.careers-home::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/careers-bg.webp");
+    background-size: 100% auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+    background-attachment: fixed;
+}
+
+.careers-title {
+    height: 380px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10% 5% 5% 10%; 
+    
+}
+.careers-title h5{
+    color: var(--white);
+    font-family: var(--font_1);
+    font-weight: bold;
+    font-size: var(--font-size-14);
+
+}
+.careers-title h2 {
+    max-width: 550px;
+    color: var(--white);
+    font-family: var(--font_1);
+    font-weight: bold;
+    font-size: var(--font-size-70);
+}
+
+.careers-title p {
+    max-width: 650px;
+    text-align: left;
+    font-size: var(--font-size-28);
+    color: var(--white);
+    font-family: var(--font_1);
+    font-weight: normal;
+    line-height: 1.6em;
+    margin: 30px 0;
+}
+
+.careers-title p:nth-of-type(2){
+    max-width: 650px;
+    font-size: var(--font-size-20);
+}
+
+.careers-container{
+    max-width: 980px;
+    position: relative;
+    color: var(--white);
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 200px;
+    top: -300px;
+    background-position: 100% 340px;
+    contain: content;
+}
+
+.careers-container .bg-color{
+    width: 100%;
+    position: absolute;
+    background-color: var(--primary-color);
+    box-shadow: var(--shadow, 0 1px 4px rgba(0, 0, 0, .6));
+    height:940px;
+    z-index: -1;
+}
+
+.cc-title{
+    padding: 50px 0; 
+}
+
+.cc-title h1{
+    font-size: var(--font-size-44);
+    font-family: var(--font_2);
+}
+.job-flex{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+}
+
+.jobs-section{
+    background-color: var(--white);
+    border-radius: var(--radius, 5px);
+    box-shadow: var(--shadow, 0 1px 4px rgba(0, 0, 0, .6));
+    height: 450px;
+    margin: 50px;
+}
+.cv-send{
+    margin-top: 100px;
+    height: 240px;
+}
+.cv-send h2{
+    color: var(--black);
+    font-size: var(--font-size-44);
+    font-family: var(--font_2);
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.cv-send a{
+    color: var(--white);
+    font-size: var(--font-size-20);
+    text-decoration: none;
+    background-color: var(--primary-color);
+    border-radius: var(--radius, 25px);
+    padding: 20px 10px;    
+    margin: auto;
+}
+
+.cv-send a:hover{
+    background-color: var(--black);
 }

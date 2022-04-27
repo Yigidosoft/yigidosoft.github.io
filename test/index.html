@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <button onclick="topFunction()" id="back-to-top" title="Go to top"><i class="uil uil-top-arrow-to-top"></i></button>
+    <button onclick="topFunction()" id="back-to-top" title="Go to top"><i class="uil uil-angle-up"></i></button>
 
     <div class="navbar">
         <div class="logo-panel">
@@ -72,7 +72,7 @@
 
 
     <div class="phone-image-div">
-        <img src="resources/images/app-two-hand.png" alt="">
+        <img src="resources/images/app-two-hand.webp" alt="">
     </div>
 
     <div class="container-title" id="products">
@@ -246,15 +246,25 @@
     </div>
 
     <div class="contact-section">
-        <div class="contact-title" id="contact">
-            <h2 class="reveal fade-bottom">Contact Us</h2>
-            <p class="reveal fade-bottom">Would you like to receive an offer? Let us prepare the most suitable offer for you
+        <div class="contact-title reveal fade-bottom" id="contact">
+            <h2>Contact Us</h2>
+            <p>Would you like to receive an offer? Let us prepare the most suitable offer for
+                you
                 according to your needs.</p>
-            <a class="send-mail reveal fade-bottom" href="mailto:info@yigidosoft.com">Send us an e-mail</a>
+            <a class="send-mail" href="mailto:info@yigidosoft.com">Send us an e-mail</a>
         </div>
     </div>
-    
 
+    <div class="join-discord">
+        <div class="jd-title reveal fade-bottom">
+            <h2>Join Our Discord Server</h2>
+            <p>People with different backgrounds come together thanks to a common interest in
+                games and programing here. Visit Our Discord servers and discuss various topics while you improve your
+                skills.</p>
+            <a href="https://discord.gg/t7qgzBRr2C">Join Discord <i
+                    class="fab fa-discord"></i></a>
+        </div>
+    </div>
 
 
 
@@ -289,8 +299,10 @@
                 <span class="policy_terms">
                     <a href="https://yigidosoft.com/documentation/docs/#faqs" target="_blank">FAQ</a>
                     <a href="https://yigidosoft.com/documentation/docs/#cookie-policy" target="_blank">Cookie Policy</a>
-                    <a href="https://yigidosoft.com/documentation/docs/#privacy-policy" target="_blank">Privacy Policy</a>
-                    <a href="https://yigidosoft.com/documentation/docs/#terms-of-service" target="_blank">Terms & Service</a>
+                    <a href="https://yigidosoft.com/documentation/docs/#privacy-policy" target="_blank">Privacy
+                        Policy</a>
+                    <a href="https://yigidosoft.com/documentation/docs/#terms-of-service" target="_blank">Terms &
+                        Service</a>
                 </span>
             </div>
         </div>
@@ -299,7 +311,6 @@
 
 
     <script type="text/javascript" src="resources/js/script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
             $("a").on('click', function (event) {
