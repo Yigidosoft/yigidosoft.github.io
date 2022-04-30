@@ -1,563 +1,350 @@
-<!doctype html>
-<html class="no-js" lang="tr">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Yiğidosoft | Web Tasarım | Yazılım | İnternet Sitesi </title>
-    <meta name="title" content="Yiğidosoft | Web Tasarım | Yazılım | İnternet Sitesi" />
-    <meta name="robots" content="noodp, noydir" />
-    <meta name="description" content="Dijital Dünya'ya ilk adımı Yiğidosoft ile atın. Kişisel markanızı Yiğidosoft ekibimizin tasarlayacağı web sitesi sayesinde Dijital Dünya'da öne çıkaracağız.
-    Hemen siz de mükemmel bir web sitesi sahibi olun ve acımasız başarıyı keşfedin.">
-    <meta name="keywords"
-        content="yigidosoft web tasarım, yiğidosoft, yiğido, sivas, web tasarım, logo tasarım, web yazılım, web sitesi, sivas web tasarım, web tasarım firması, seo, one page site tasarımı, kurumsal site tasarımı, mobil uyumlu site," />
-    <meta name="author" content="Yigidosoft" />
-    <meta name="referrer" content="origin">
-    <meta name="viewport" content="width=device-width, initial-scale=0.4">
-    <meta name="google-site-verification" content="so-WxlBBVL8anRjIkW-8oCwKqm00kbrbD0gH5HyuAMc" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
-        rel="stylesheet">
-    <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="resources/img/favicon.webp">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="tr_TR">
-    <meta name="imagetoolbar" content="no" />
-    <meta name="og:title" content="Yiğidosoft | Web Tasarım | Yazılım | İnternet Sitesi " />
-    <meta name="og:site_name" content="yigidosoft.com" />
-    <meta name="og:url" content="https://yigidosoft.com/" />
-    <meta name="og:type" content="customer" />
-    <link rel="canonical" href="https://yigidosoft.com/" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title translate="no">Yiğidosoft</title>
+    <link rel="icon" href="resources/images/favicon.webp">
 
-    <!-- Web fonts and Web Icons -->
-    <link rel="stylesheet" href="resources/fonts/opensans/stylesheet.css">
-    <link rel="stylesheet" href="resources/fonts/ionicons/ionicons.min.css">
-    <link rel="stylesheet" href="resources/fonts/fontawesome/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="resources/css/style.css">
 
-    <!-- Vendor CSS -->
-    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
-    <link rel="stylesheet" href="resources/js/vendor/swiper.min.css">
-    <link rel="stylesheet" href="resources/js/vendor/jquery.fullpage.min.css">
-    <link rel="stylesheet" href="resources/js/vendor/vegas/vegas.min.css">
+    <!--Iconscout CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <!-- Main CSS files -->
-    <link rel="stylesheet" href="resources/css/custom.css">
-    <link rel="stylesheet" href="resources/css/style-light.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 
-    <script type="text/javascript">
-        function hover(element) {
-            element.setAttribute('src', 'resources/img/logo.webp');
-        }
-
-        function unhover(element) {
-            element.setAttribute('src', 'resources/img/logo-gray.webp');
-        }
-    </script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157349570-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-157349570-1');
-    </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1160689404715555"
-        crossorigin="anonymous"></script>
 </head>
 
-<body id="menu" class="body-page">
-    <!--[if lt IE 8]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
-    your browser</a> to improve your experience.</p>
-<![endif]-->
+<body>
+    <button onclick="topFunction()" id="back-to-top" title="Go to top"><i class="uil uil-angle-up"></i></button>
 
-    <!-- Start PageLoader-->
-    <div class="page-loader" id="page-loader">
-        <div>
-            <div class="ion-spin">
-                <span class="iconify" data-icon="si-glyph:brush-and-pencil" data-width="45"></span>
+    <div class="navbar">
+        <div class="logo-panel">
+            <div class="logo-img">
+                <img src="resources/images/logo.webp" alt="Yiğidosoft">
+            </div>
+            <div class="logo-text">
+                <a href="/" translate="no">YiğidoSoft</a>
+            </div>
+        </div>
+
+        <div class="nav-menu">
+            <ul>
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="/careers">Careers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div id="mobile" class="mobile-menu">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <!-- Overlay content -->
+            <div class="mobile-menu-content">
+                <a href="/" class="active" onclick="closeNav()">Home</a>
+                <a href="#about" onclick="closeNav()">About</a>
+                <a href="#products" onclick="closeNav()">Products</a>
+                <a href="#sponsors" onclick="closeNav()">Sponsors</a>
+                <a href="/careers" onclick="closeNav()">Careers</a>
+                <a href="#contact" onclick="closeNav()">Contact</a>
+            </div>
+
+        </div>
+        <div class="nav-btn">
+            <a onclick="openNav()">
+                <img src="resources/images/menu.svg">
+            </a>
+        </div>
+    </div>
+
+
+
+<!--
+    <div class="home-info">
+        <h1 translate="no">Yiğidosoft <span class="color-primary"></span> Corporation</h1>
+        <p>Creating the Very Best in Mobile Application and Web Programming</p>
+    </div>
+
+
+    <div class="phone-image-div">
+        <img src="resources/images/app-two-hand.webp" alt="">
+    </div>
+-->
+
+
+    <div class="about-home" id="about">
+        <div id="particles"></div>
+        <div class="about-title reveal fade-bottom">
+            <h2>For the Love of the Software</h2>
+            <p>
+                Get your first step with <span translate="no">Yiğidosoft</span> into the Digital World.<br>
+                Our mission is to empower every person and every organization on the planet to achieve more.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="container-title" id="products">
+        <h2 class="reveal fade-bottom">Explore <span class="color-primary"></span>Our Mobile Apps</h2>
+        <p class="reveal fade-bottom">Apps from <span translate="no">Yiğidosoft</span> to help you get the most out of your day, across all your
+            devices.</p>
+    </div>
+
+    <div class="container">
+        <div class="product reveal fade-right">
+            <div class="product-img">
+                <img src="resources/images/wordaily.webp" alt="Wordaily">
+            </div>
+            <div class="product-title">
+                <a href="#wordaily">Wordaily</a>
+                <p>Puzzle</p>
+            </div>
+        </div>
+        <div class="product reveal fade-bottom">
+            <div class="product-img">
+                <img src="resources/images/wallsdrobe.webp" alt="Wallsdrobe">
+            </div>
+            <div class="product-title">
+                <a href="#wallsdrobe">Wallsdrobe</a>
+                <p>Personalization</p>
+            </div>
+        </div>
+        <div class="product reveal fade-right">
+            <div class="product-img">
+                <img src="resources/images/sivasspor_wallpapers.webp" alt="Sivasspor Wallpapers">
+            </div>
+            <div class="product-title">
+                <a href="#sivasspor-wallpapers">Sivasspor Wallpapers</a>
+                <p>Personalization</p>
             </div>
         </div>
     </div>
-    <!-- End PageLoader-->
-
-    <!-- Start CustomCursor-->
-    <div class="cursor-dot-outline"></div>
-    <div class="cursor-dot"></div>
-    <!-- End CustomCursor-->
-
-    <!-- Start Header -->
-    <header class="page-header navbar page-header-alpha scrolled-white menu-right topmenu-right">
-
-        <!-- Begin of sidebar nav menu params class: text-only / icon-only-->
-        <nav class="navbar-sidebar ">
-            <ul class="navbar-nav" id="qmenu">
-                <li class="nav-item" data-menuanchor="home">
-                    <a href="#home">
-                        <i class="icon ion-ios-home"></i>
-                        <span class="txt" title="Web Tasarım Anasayfa">Anasayfa</span>
+    <div class="wordaily-app-background" id="wordaily">
+        <div class="left-app-panel reveal fade-left">
+            <div class="bg-product">
+                <div class="bg-product-start">
+                    <div class="bg-product-img">
+                        <img src="resources/images/wordaily.webp" alt="Wordaily">
+                    </div>
+                    <div class="bg-product-title">
+                        <a>Wordaily</a>
+                        <p>Puzzle</p>
+                    </div>
+                </div>
+                <div class="bg-product-description">
+                    <p>Wordaily is now in your pocket. Guess a word and use the colors of the boxes to help guide your
+                        next decision. You have 6 tries to guess the correct word. Every 24 hours there is a new word of
+                        the day and it is up to you to figure out what it is.</p>
+                </div>
+                <div class="appdown">
+                    <a href="https://play.google.com/store/apps/details?id=com.yigidosoft.wordaily" target="_blank">
+                        <img src="resources/images/play-store.webp" alt="Google Play Store">
                     </a>
-                </li>
-                <li class="nav-item" data-menuanchor="services">
-                    <a href="#services">
-                        <i class="icon ion-clipboard"></i>
-                        <span class="txt" title="Web Tasarım Hizmetleri">Hizmetler</span>
-                    </a>
-                </li>
-                <li class="nav-item" data-menuanchor="contact">
-                    <a href="#contact">
-                        <i class="icon ion-email"></i>
-                        <span class="txt"title="Web Tasarım İletişim">İletişim</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <!-- End of sidebar nav menu -->
+                </div>
+            </div>
+            <div class="bg-phone">
+                <img src="resources/images/wordaily-phn.webp" alt="Wordaily App">
+            </div>
         </div>
-        <!-- end of menu wrapper -->
-
-    </header>
-    <!-- End Header -->
-
-    <!-- Start Page Cover -->
-    <div class="page-cover">
-        <!-- Transluscent mask as filter -->
-        <div class="cover-bg-mask bg-color" data-bgcolor="#ffffff"></div>
     </div>
-    <!--End Page Cover -->
-
-    <!-- Start Main Content -->
-    <main class="page-main page-fullpage main-anim" id="mainpage">
-
-        <!-- Begin of home section -->
-        <div class="section section-home fullscreen-md fp-auto-height-responsive main-home" data-section="home">
-            <!-- Begin of section wrapper -->
-            <div class="section-wrapper center-vh dir-col anim">
-                <!-- content -->
-                <div class="section-content reduced text-center">
-                    <div class="row">
-                        <!-- title -->
-                        <div class="col-12 col-md-12 text-center">
-                            <!-- title and description -->
-                            <div class="title-desc">
-                                <span class="logo">
-                                    <img class="light-logo" src="resources/img/logo-gray.webp" alt="Logo"
-                                        onmouseover="hover(this);" onmouseout="unhover(this);">
-                                </span>
-                                <div class="scroll-downs">
-                                    <div class="mousey">
-                                        <div class="scroller"></div>
-                                    </div>
-                                </div>
-                                <div class="home-buttons">
-                                    <a style="color:#fff;" id="dc-icon" target="_blank" title="Web Tasarım Discord"
-                                        href="https://discord.gg/t7qgzBRr2C" rel="nofollow">
-                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img"
-                                            width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-                                            viewBox="0 0 16 16">
-                                            <path fill="white"
-                                                d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011a.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0a8.258 8.258 0 0 0-.412-.833a.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02a.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059a.051.051 0 0 0-.018-.011a8.875 8.875 0 0 1-1.248-.595a.05.05 0 0 1-.02-.066a.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085a8.254 8.254 0 0 1-1.249.594a.05.05 0 0 0-.03.03a.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019a13.235 13.235 0 0 0 4.001-2.02a.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612c0-.889.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613c0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612c0-.889.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613c0 .888-.631 1.612-1.438 1.612Z" />
-                                        </svg>
-                                        Discord Sunucumuza Katıl
-                                    </a>
-                                    <a style="color:#fff;" id="gp-icon" target="_blank" title="Web Tasarım Google Play Store"
-                                        href="https://play.google.com/store/apps/dev?id=4998248358292398038" rel="nofollow">
-                                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img"
-                                            width="1em" height="1em" preserveAspectRatio="xMidYMid meet"
-                                            viewBox="0 0 32 32">
-                                            <path fill="white"
-                                                d="M20.331 14.644L6.537.813l17.55 10.075zM2.938 0c-.813.425-1.356 1.2-1.356 2.206v27.581c0 1.006.544 1.781 1.356 2.206l16.038-16zm26.574 14.1l-3.681-2.131L21.725 16l4.106 4.031l3.756-2.131c1.125-.893 1.125-2.906-.075-3.8zM6.538 31.188l17.55-10.075l-3.756-3.756z" />
-                                        </svg> Mobil Uygulamalarımıza Göz At
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+    <div class="wallsdrobe-app-background" id="wallsdrobe">
+        <div class="right-app-panel reveal fade-right">
+            <div class="bg-product">
+                <div class="bg-product-start">
+                    <div class="bg-product-img">
+                        <img src="resources/images/wallsdrobe.webp" alt="Wallsdrobe">
+                    </div>
+                    <div class="bg-product-title">
+                        <a>Wallsdrobe</a>
+                        <p>Personalization</p>
                     </div>
                 </div>
-            </div>
-            <!-- End of section wrapper -->
-        </div>
-        <!-- End of home section -->
-        <!-- Begin of description section -->
-        <div class="section section-description fp-auto-height-responsive about-section" data-section="about">
-            <!-- Begin of section wrapper -->
-
-            <div class="section-wrapper center-vh dir-col anim">
-                <!-- title -->
-                <div class="anim-2">
-                    <h2 class="display-4 display-title mb-32">Biz Kimiz?</h2>
+                <div class="bg-product-description">
+                    <p>Wallsdrobe offers you the best background wallpapers for free.
+                        Personalize your phone by easily downloading HD wallpapers.
+                        Benefit from a constantly enriching collection, we offer you more and more wallpapers every day.
+                    </p>
                 </div>
-
-                <!-- content -->
-                <div class="section-content reduced">
-                    <div class="row">
-                        <div class="col-12 col-md-12">
-                            <div class="title-desc anim-2 text-center">
-                                <p>Dijital Dünya'ya ilk adımı Yiğidosoft ile atın. Yiğidosoft
-                                    ekibimizin tasarlayacağı logo tasarımları ve web sitesi tasarımları sayesinde
-                                    kişisel markanızı Dijital Dünya'da öne çıkarmaya hazırız.
-                                    Hemen siz de mükemmel bir logo ve web sitesi sahibi olun ve acımasız başarıyı
-                                    keşfedin.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <!-- end of content -->
-            </div>
-            <!-- End of section wrapper -->
-        </div>
-        <!-- End of description section -->
-
-        <!-- Begin of list feature section -->
-        <div class="section section-list-feature fp-auto-height-responsive " data-section="services">
-            <!-- Begin of section wrapper -->
-            <div class="section-wrapper twoside center-vh dir-col anim">
-                <!-- title -->
-                <div class="anim-2">
-                    <h2 class="display-4 display-title mb-32">Hizmetlerimiz</h2>
-                </div>
-
-                <!-- text or illustration order are manipulated via Bootstrap order-md-1, order-md-2 class -->
-                <!-- begin of item -->
-                <div class="item row justify-content-between fade-1">
-                    <!-- begin of column content -->
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <!-- content -->
-                        <div class="section-content reduced">
-                            <!-- a media object -->
-                            <div class="media" style="margin-bottom:10px;">
-                                <div class="img d-flex">
-                                    <!-- <i class="icon icon ion-cash"></i>-->
-                                    <img src="resources/img/img1.webp" title="Logo Tasarım" alt="Logo Tasarım" />
-                                </div>
-                                <div class="media-body">
-                                    <h4>Logo Tasarım</h4>
-                                    <p>Markanıza uygun tamamen özgün logolar tasarlayıp sizlere sunuyoruz.</p>
-                                </div>
-                            </div>
-                            <!-- a media object -->
-                            <div class="media" style="margin-bottom:10px;">
-                                <div class="img d-flex">
-                                    <img src="resources/img/img6.webp" title="Yazılım Geliştirme" alt="Yazılım Geliştirme"/>
-                                </div>
-                                <div class="media-body">
-                                    <h4>Yazılım Geliştirme</h4>
-                                    <p>Web site Yazılım süreçlerinizi kurguluyor ve arama motoru dostu mobil uyumlu
-                                        siteler oluşturuyoruz.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end of column content -->
-
-                    <!-- begin of column content -->
-                    <div class="col-12 col-md-6 col-lg-6">
-                        <!-- content -->
-                        <div class="section-content reduced">
-                            <!-- a media object -->
-                            <div class="media" style="margin-bottom:10px;">
-                                <div class="img d-flex">
-                                    <img src="resources/img/img2.webp" title="Sosyal Medya Yönetimi" alt="Sosyal Medya Yönetimi" />
-                                </div>
-                                <div class="media-body">
-                                    <h4>Sosyal Medya Yönetimi</h4>
-                                    <p>Sosyal Medya Hesaplarınızı amacına uygun tasarlıyor reklam metinlerinizi ve
-                                        kampanyalarınızı kurguluyoruz. </p>
-                                </div>
-                            </div>
-                            <!-- a media object -->
-                            <div class="media" style="margin-bottom:10px;">
-                                <div class="img d-flex">
-                                    <img src="resources/img/img8.webp" title="Mobil Uygulama Geliştirme" alt="Mobil Uygulama Geliştirme" />
-                                </div>
-                                <div class="media-body">
-                                    <h4>Mobil Uygulama Geliştirme</h4>
-                                    <p>Yeni mobil teknolojileri yakından takip ediyor, uygulamalarınızı en yeni
-                                        teknolojiler ile donatıyoruz. </p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- end of column content -->
-
-                </div>
-                <!-- end of item -->
-            </div>
-            <!-- End of section wrapper -->
-        </div>
-        <!-- End of list feature section -->
-
-        <!-- Begin of slider section -->
-        <div class="section section-twoside fp-auto-height-responsive " data-section="projects">
-            <!-- Begin of section wrapper -->
-            <div class="section-wrapper twoside">
-                <!-- title -->
-                <div class="section-title text-center">
-                    <h2 class="display-4 display-title mb-32">Projeler</h2>
-                </div>
-
-
-                <!-- begin of carousel-swiper-beta -->
-                <div class="slider-wrapper carousel-swiper-beta carousel-smalls carousel-swiper-beta-demo">
-                    <!-- slider -->
-                    <div class="slider-container swiper-container">
-                        <ul class="item-list swiper-wrapper">
-                            <!-- item -->
-                            <li class="slide-item swiper-slide">
-                                <div class="item-wrapper">
-                                    <div class="browser-mockup">
-                                        <div class="content"
-                                            style="background-image: url(https://i.hizliresim.com/pe2alni.png)" title="Web Tasarım" alt="Web Tasarım"></div>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- item -->
-                            <li class="slide-item swiper-slide">
-                                <div class="item-wrapper">
-                                    <div class="browser-mockup">
-                                        <div class="content"
-                                            style="background-image: url(https://i.hizliresim.com/eevyrhz.jpg)" title="Web Tasarım" alt="Web Tasarım"></div>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- item -->
-                            <li class="slide-item swiper-slide">
-                                <div class="item-wrapper">
-                                    <div class="browser-mockup">
-                                        <div class="content"
-                                            style="background-image: url(https://i.hizliresim.com/mrzp4zt.png)" title="Web Tasarım" alt="Web Tasarım"></div>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- item -->
-                            <li class="slide-item swiper-slide">
-                                <div class="item-wrapper">
-                                    <div class="browser-mockup">
-                                        <div class="content"
-                                            style="background-image: url(https://i.hizliresim.com/7ziqk8w.jpg)" title="Web Tasarım" alt="Web Tasarım"></div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- pagination -->
-                    <div class="items-pagination bar"></div>
-                </div>
-                <!-- end of carousel-swiper-beta -->
-            </div>
-            <!-- End of section wrapper -->
-        </div>
-        <!-- End of slider section -->
-
-        <!-- Begin of contact section -->
-        <div class="section section-contact fp-auto-height-responsive no-slide-arrows " data-section="contact">
-
-            <!-- begin of information slide -->
-            <div class="slide" id="information" data-anchor="information">
-                <!-- Begin of slide section wrapper -->
-                <div class="section-wrapper">
-                    <div class="row">
-                        <div class="col-12 col-md-12">
-                            <!-- content -->
-                            <div class="section-content anim text-center">
-                                <!-- title and description -->
-                                <div class="title-desc">
-                                    <div class="anim-2">
-                                        <h2 class="display-4 display-title mb-32">Bize Ulaşın</h2>
-                                    </div>
-                                    <div class="address-container anim-3">
-                                        <div class="row info">
-                                            <div class="col-12 col-sm-12 col-md-2 col-lg-2"></div>
-
-                                            <div class="col-12 col-sm-12 col-md-4 col-lg-4 mailto">
-                                                <h5><i class="icon ion-android-call"></i> Telefon</h5>
-                                                <p></p>
-
-                                                <h5><i class="icon ion-email"></i> E-Posta</h5>
-                                                <a href="mailto:info@yigidosoft.com">info@yigidosoft.com</a>
-
-                                                <h5><i class="icon ion-android-map"></i> Adres</h5>
-                                                <p>Sivas / Türkiye</p>
-                                            </div>
-
-                                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                                                <p>Teklif almak ister misiniz? Size özel en uygun teklifimizi
-                                                    ihtiyaçlarınıza göre hazırlayalım.</p>
-                                                <!-- Action button 
-                                                <div class="btns-action anim-4 mt-3">
-                                                    <a class="btn btn-outline-white" href="#contact/message">
-                                                        <span class="txt">Şimdi Teklif Alın</span>
-                                                        <i class="icon fa fa-long-arrow-right ml-2"></i>
-                                                    </a>
-                                                </div>-->
-                                            </div>
-
-                                            <div class="col-12 col-sm-12 col-md-2 col-lg-2"></div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-md-6">
-
-                        </div>
-                    </div>
-                </div>
-                <!-- End of slide section wrapper -->
-            </div>
-            <!-- end of information slide -->
-
-            <!-- begin of message slide 
-            <div class="slide" id="message" data-anchor="message">
-                <div class="section-wrapper center-vh dir-col">
-                    <div class="row justify-content-between">
-                        <div class="col-12 col-md-12 col-lg-12">
-                            <div class="section-content anim text-center">
-                                <div class="title-desc">
-                                    <div>
-                                        <h2 class="display-4 display-title">MESAJ YAZIN</h2>
-                                        <p>En kısa zamanda cevaplayacağız</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-12 col-md-12 col-lg-12">
-                            <div class="section-content anim text-left">
-                                <div class="">
-                                    <div class="form-container form-container-card">
-                                        <form class="message form" method="post" id="formMessage" name="formMessage"
-                                            accept-charset="utf-8"
-                                            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfScvq22oxZ33BBm0P_P5LDYmywBTttvhNw5f68L6N3WcfwyA/formResponse" rel="nofollow">
-                                            <div class="form-group name">
-                                                <label for="fullname">İsim</label>
-                                                <input id="fullname" name="entry.2041403057" type="text" placeholder=""
-                                                    class="form-control-line form-success-clean" required>
-                                            </div>
-                                            <div class="form-group email">
-                                                <label for="email">E-Posta</label>
-                                                <input id="email" type="email" placeholder="" name="emailAddress"
-                                                    class="form-control-line form-success-clean" required>
-                                            </div>
-                                            <div class="form-group no-border">
-                                                <label for="message">Mesaj</label>
-                                                <textarea id="message" name="entry.1060635606"
-                                                    class="form-control form-control-outline thick form-success-clean"
-                                                    required></textarea>
-
-                                                <div>
-                                                    <p class="message-ok form-text-feedback">
-                                                    </p>
-                                                </div>
-                                            </div>
-
-                                            <div class="btns">
-                                                <button type="submit" id="submit-message"
-                                                    class="btn btn-outline-white btn-full email_b"
-                                                    name="submit_message">
-                                                    <i class="icon ion-paper-airplane mr-2"></i>
-                                                    <span type="submit" class="txt">Gönder</span>
-                                                    <span class="arrow-icon"></span>
-                                                </button>
-                                                <a class="btn btn-transparent btn-left-hover btn-border-none text-center"
-                                                    href="#contact/information">
-                                                    <span class="txt"><i class="fa fa-long-arrow-left mr-2"></i>
-                                                        Bilgilere Dön</span>
-                                                </a>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-             end of message slide -->
-        </div>
-        <!-- End of contact section -->
-    </main>
-    <!-- End Main Content -->
-
-    <!-- Start Footer -->
-    <footer id="site-footer" class="page-footer">
-        <!-- Left content -->
-        <div class="footer-left">
-            <a href="/en">
-                EN
-            </a>
-            <a href="/documentation" target="_blank" id="docs">
-                Documentation
-            </a>
-        </div>
-        <!-- Right content -->
-        <div class="footer-right">
-
-            <ul class="social">
-                <li>
-                    <a href="https://twitter.com/yigidosoft" target="_blank" rel="nofollow">
-                        <i class="icon fa fa-twitter"></i>
+                <div class="appdown">
+                    <a href="https://play.google.com/store/apps/details?id=com.yigidosoft.wallsdrobe" target="_blank">
+                        <img src="resources/images/play-store.webp" alt="Google Play Store">
                     </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/channel/UCgOpGOvYj73OtIb2UoAw1fQ" target="_blank" rel="nofollow">
-                        <i class="icon fa fa-youtube"></i>
+                </div>
+            </div>
+            <div class="bg-phone">
+                <img src="resources/images/wallsdrobe-phn.webp" alt="Wordaily App">
+            </div>
+        </div>
+    </div>
+    <div class="sw-app-background" id="sivasspor-wallpapers">
+        <div class="left-app-panel reveal fade-left">
+            <div class="bg-product">
+                <div class="bg-product-start">
+                    <div class="bg-product-img">
+                        <img src="resources/images/sivasspor_wallpapers.webp" alt="Sivasspor Wallpapers">
+                    </div>
+                    <div class="bg-product-title">
+                        <a>Sivasspor Wallpapers</a>
+                        <p>Personalization</p>
+                    </div>
+                </div>
+                <div class="bg-product-description">
+                    <p>Color your phone with Sivasspor Wallpapers app. Set the newly added Sivasspor wallpapers as your
+                        phone background now.</p>
+                </div>
+                <div class="appdown">
+                    <a href="https://play.google.com/store/apps/details?id=com.mobiroller.mobi408693277272"
+                        target="_blank">
+                        <img src="resources/images/play-store.webp" alt="Google Play Store">
                     </a>
-                </li>
-                <li>
-                    <a href="https://discord.gg/t7qgzBRr2C" target="_blank" rel="nofollow">
-                        <span class="iconify" data-icon="simple-icons:discord"></span>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/company/yigidosoft" target="_blank" rel="nofollow">
-                        <i class="icon fa fa-linkedin"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/yigidosoft/" target="_blank" rel="nofollow">
-                        <i class="icon fa fa-instagram"></i>
-                    </a>
-                </li>
-            </ul>
+                </div>
+            </div>
+            <div class="bg-phone">
+                <img src="resources/images/sw-phn.webp" alt="Wordaily App">
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container-title">
+        <h2 class="reveal fade-bottom">Explore <span class="color-primary"></span>Our Web Projects</h2>
+        <p class="reveal fade-bottom">We build your website software processes and create search engine friendly mobile
+            compatible sites.</p>
+    </div>
+
+    <div class="web-project-slider reveal fade-bottom">
+        <div class="browser-mockup">
+            <div class="image-content" style="background-image: url(https://i.hizliresim.com/7ziqk8w.jpg)"
+                title="Web Tasarım" alt="Web Design">
+            </div>
+            <div class="image-content" style="background-image: url(https://i.hizliresim.com/pe2alni.png)"
+                title="Web Tasarım" alt="Web Design">
+            </div>
+
+            <a class="arrow-left" onClick="plusDivs(-1);"><i class="uil uil-angle-left-b"></i></a>
+            <a class="arrow-right" onClick="plusDivs(+1);"><i class="uil uil-angle-right-b"></i></a>
+
+            <div class="pagination">
+                <span class="dot active" onClick="currentDiv(1);"></span>
+                <span class="dot" onClick="currentDiv(2);"></span>
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="container-title" id="sponsors">
+        <h2 class="reveal fade-bottom">Explore <span class="color-primary"></span>Our Sponsors</h2>
+        <p class="reveal fade-bottom">We value our sponsors & partners. Support provided by corporations and businesses
+            allows for the development and implementation of <span translate="no">Yiğidosoft</span> programs, projects, and resources. Please
+            contact us for more information on the opportunity to sponsor. (<a
+                href="mailto:sponsor@yigidosoft.com">sponsor@yigidosoft.com</a>)</p>
+    </div>
+
+    <div class="sponsors reveal fade-bottom">
+        <div class="sponsor">
+            <a href="#"><img src="resources/sponsors/sponsor.png"></a>
+        </div>
+        <div class="sponsor">
+            <a href="#"><img src="resources/sponsors/sponsor.png"></a>
+        </div>
+        <div class="sponsor">
+            <a href="#"><img src="resources/sponsors/sponsor.png"></a>
+        </div>
+        <div class="sponsor">
+            <a href="#"><img src="resources/sponsors/sponsor.png"></a>
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <div id="particles"></div>
+        <div class="contact-title reveal fade-bottom" id="contact">
+            <h2>Contact Us</h2>
+            <p>Would you like to receive an offer? Let us prepare the most suitable offer for
+                you
+                according to your needs.</p>
+            <a class="send-mail" href="mailto:info@yigidosoft.com">Send us an e-mail</a>
+        </div>
+    </div>
+
+    <div class="join-discord">
+        <div class="jd-title reveal fade-bottom">
+            <h2>Join Our Discord Server</h2>
+            <p>People with different backgrounds come together thanks to a common interest in
+                games and programing here. Visit Our Discord servers and discuss various topics while you improve your
+                skills.</p>
+            <a href="https://discord.gg/t7qgzBRr2C">Join Discord <i
+                    class="fab fa-discord"></i></a>
+        </div>
+    </div>
+
+
+
+
+<!--Footer Started-->
+
+    <footer>
+        <div class="content">
+            <div class="top">
+                <div class="logo-panel">
+                    <div class="logo-img">
+                        <img src="resources/images/logo.webp" alt="Yiğidosoft">
+                    </div>
+                    <div class="logo-text">
+                        <a href="/" translate="no">YiğidoSoft</a>
+                    </div>
+                </div>
+                <div class="media-icons">
+                    <a href="https://discord.gg/t7qgzBRr2C"><i class="fab fa-discord"></i></a>
+                    <a href="https://twitter.com/yigidosoft"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/yigidosoft/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/65796406/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.youtube.com/channel/UCgOpGOvYj73OtIb2UoAw1fQ"><i
+                            class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-details">
+            <div class="bottom_text">
+                <span class="copyright_text">Copyright &#169; 2017 <a href="/" translate="no">Yiğidosoft.</a>All rights reserved</span>
+                <span class="policy_terms">
+                    <a href="https://yigidosoft.com/documentation/docs/#faqs" target="_blank">FAQ</a>
+                    <a href="https://yigidosoft.com/documentation/docs/#cookie-policy" target="_blank">Cookie Policy</a>
+                    <a href="https://yigidosoft.com/documentation/docs/#privacy-policy" target="_blank">Privacy
+                        Policy</a>
+                    <a href="https://yigidosoft.com/documentation/docs/#terms-of-service" target="_blank">Terms &
+                        Service</a>
+                </span>
+            </div>
         </div>
     </footer>
-    <!-- End Footer -->
 
-    <!-- JavaScripts -->
-    <!-- jQuery -->
-    <script src="resources/js/vendor/jquery-1.12.4.min.js"></script>
 
-    <!-- All Vendor Scripts -->
-    <script src="resources/js/vendor/scrolloverflow.min.js"></script>
-    <script src="resources/js/vendor/all.js"></script>
-    <script src="resources/js/vendor/particlejs/particles.min.js"></script>
 
-    <!-- Main Script -->
-    <script src="resources/js/custom.js"></script>
-    <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"
-        integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $('#formMessage').submit(function (event) {
-            event.preventDefault()
-            var extraData = {}
-            $('#formMessage').ajaxSubmit({
-                data: extraData,
-                dataType: 'jsonp',
-                error: function () {
-                    swal('Yanıtınız Kaydedildi. Teşekkürler.')
+    <script type="text/javascript" src="resources/js/script.js"></script>
+	<script src="resources/js/particles.min.js"></script>
+    <script src="resources/js/init-particles.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("a").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+                        window.location.hash = hash;
+                    });
                 }
-            })
-        })
+            });
+        });
     </script>
 </body>
 
