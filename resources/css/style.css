@@ -985,7 +985,7 @@ footer .bottom-details .bottom_text {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../images/particles.gif");
+    background-image: url("../images/particles.webp");
     filter: brightness(60%);
     background-size: cover;
     object-fit: cover;
