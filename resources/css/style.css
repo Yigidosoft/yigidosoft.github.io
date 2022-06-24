@@ -47,6 +47,13 @@
     --font-size-70: 70px;
 }
 
+@media(prefers-reduced-motion: reduce){
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
 @media screen and (max-width: 720px) {
     :root {
         --font-size-14: 10px;
