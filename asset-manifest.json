@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/yigidosoft.github.io/static/css/main.00adb125.css",
+    "main.js": "/yigidosoft.github.io/static/js/main.5a764cae.js",
+    "static/media/wordaily-app-background.webp": "/yigidosoft.github.io/static/media/wordaily-app-background.398c468de2e549d9f929.webp",
+    "static/media/careers-bg.webp": "/yigidosoft.github.io/static/media/careers-bg.f2f7bfcd5c313da00429.webp",
+    "static/media/sw-app-background.webp": "/yigidosoft.github.io/static/media/sw-app-background.845f1866c72f9b007909.webp",
+    "static/media/wallsdrobe-app-background.webp": "/yigidosoft.github.io/static/media/wallsdrobe-app-background.70551745c4f4fa4835fc.webp",
+    "static/media/about-bg.webp": "/yigidosoft.github.io/static/media/about-bg.f01963af38f28b6a5f11.webp",
+    "static/media/logo.webp": "/yigidosoft.github.io/static/media/logo.39df47ca76fda80b7fe2.webp",
+    "static/media/sivasspor_wallpapers.webp": "/yigidosoft.github.io/static/media/sivasspor_wallpapers.c81b4a9dd6eb19cbe82f.webp",
+    "static/media/discord-bg.webp": "/yigidosoft.github.io/static/media/discord-bg.88075e76823618207ea8.webp",
+    "static/media/wallsdrobe-phn.webp": "/yigidosoft.github.io/static/media/wallsdrobe-phn.f4e988e5a61eda5c9d41.webp",
+    "static/media/sw-phn.webp": "/yigidosoft.github.io/static/media/sw-phn.21522cf77c95b1d34390.webp",
+    "static/media/contact-bg.webp": "/yigidosoft.github.io/static/media/contact-bg.7c0d13a7a6c8ab79947a.webp",
+    "static/media/wordaily-phn.webp": "/yigidosoft.github.io/static/media/wordaily-phn.735839a05743b5c25421.webp",
+    "static/media/wallsdrobe.webp": "/yigidosoft.github.io/static/media/wallsdrobe.a964adaee9f77ca17ee2.webp",
+    "static/media/wordaily.webp": "/yigidosoft.github.io/static/media/wordaily.33c883cab98d4c21311a.webp",
+    "static/media/sponsor.webp": "/yigidosoft.github.io/static/media/sponsor.006bc66e832ae92ddf0d.webp",
+    "static/media/play-store.webp": "/yigidosoft.github.io/static/media/play-store.dece4ba0f7d7062a8db2.webp",
+    "index.html": "/yigidosoft.github.io/index.html",
+    "static/media/hr.svg": "/yigidosoft.github.io/static/media/hr.32d544783b2aa8d398f2.svg",
+    "static/media/menu.svg": "/yigidosoft.github.io/static/media/menu.680601f8ef5a179a5d7bf16222c9414a.svg",
+    "main.00adb125.css.map": "/yigidosoft.github.io/static/css/main.00adb125.css.map",
+    "main.5a764cae.js.map": "/yigidosoft.github.io/static/js/main.5a764cae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00adb125.css",
+    "static/js/main.5a764cae.js"
+  ]
+}
