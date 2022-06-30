@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 * {
     margin: 0;
@@ -13,7 +14,7 @@
 :root {
     /* Colors */
     --primary-color: #f2b125;
-    --background-color: #eaf2ff;
+    --background-color: #fafafa;
     --border-color: #eaf2ff;
     --white: #fff;
     --black: #00204c;
@@ -37,6 +38,7 @@
     --font_1: 'Open Sans', sans-serif;
     --font_2: 'Poppins', sans-serif;
     --font_3: 'Play', sans-serif;
+    --font_4: 'Secular One', sans-serif;
 
     /* Font Size */
     --font-size-14: 14px;
@@ -68,12 +70,9 @@
 
 .reveal {
     position: relative;
-    opacity: 0;
-}
-
-.reveal.active {
     opacity: 1;
 }
+/* 
 
 .active.fade-bottom {
     animation: fade-bottom 1s ease-in;
@@ -137,7 +136,7 @@
         background-position-x: 0;
         opacity: 1;
     }
-}
+} */
 
 body {
     background-color: var(--background-color);
@@ -155,8 +154,7 @@ html {
     text-align: end;
 }
 
-#back-to-top {
-    display: none;
+.back-to-top {
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -172,7 +170,7 @@ html {
     transition: all 0.4s ease;
 }
 
-#back-to-top:hover {
+.back-to-top:hover {
     border-color: var(--primary-color);
     transform: scale(1.1);
 }
@@ -199,7 +197,7 @@ html {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: var(--white);
+    background-color: var(--black);
     border-radius: var(--radius, 5px);
     box-shadow: var(--shadow, 0 1px 4px rgba(0, 0, 0, .6));
     position: relative;
@@ -218,7 +216,7 @@ html {
 }
 
 .logo-panel .logo-text a {
-    color: var(--black);
+    color: var(--white);
     font-family: var(--font_3);
     font-size: 20px;
     font-weight: bold;
@@ -246,7 +244,7 @@ html {
     text-decoration: none;
     color: var(--black);
     font-family: var(--font_1);
-    font-size: var(--font-size-14);
+    font-size: var(--font-size-15);
     padding: 0 10px;
     font-weight: bold;
 }
@@ -320,6 +318,7 @@ html {
     color: var(--white);
     display: block;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .mobile-menu a:hover,
@@ -463,10 +462,19 @@ html {
 
 .container-title h2 {
     color: var(--black);
-    font-family: var(--font_2);
+    font-family: var(--font_1);
     font-weight: bold;
     font-size: var(--font-size-44);
-    margin: 30px 0;
+}
+
+.container-title h2::after{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    content: url(../images/hr.svg);
+    width: 1.5em;
+    height: 1em;
 }
 
 .container-title p {
@@ -476,7 +484,7 @@ html {
     color: var(--black);
     font-family: var(--font_1);
     font-weight: normal;
-    line-height: 1.6em;
+    line-height: 1em;
     padding: 0 10px;
 }
 
@@ -611,7 +619,6 @@ html {
     font-size: var(--font-size-15);
     font-weight: normal;
     text-decoration: none;
-    cursor: pointer;
     vertical-align: baseline;
 }
 
@@ -626,7 +633,6 @@ html {
     line-height: 1.6em;
     font-weight: normal;
     text-decoration: none;
-    cursor: pointer;
     vertical-align: baseline;
 }
 
@@ -687,7 +693,7 @@ html {
 }
 
 .sponsors {
-    max-width: 1150px;
+    max-width: 1320px;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
@@ -1162,7 +1168,7 @@ footer .bottom-details .bottom_text {
     object-fit: cover;
     object-position: 50% 50%;
     background-repeat: no-repeat;
-    filter: brightness(60%);
+    filter: brightness(50%);
     background-attachment: fixed;
 }
 
