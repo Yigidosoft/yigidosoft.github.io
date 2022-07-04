@@ -49,7 +49,7 @@
     --font-size-70: 70px;
 }
 
-@media(prefers-reduced-motion: reduce){
+@media(prefers-reduced-motion: reduce) {
     * {
         animation: none !important;
         transition: none !important;
@@ -72,6 +72,7 @@
     position: relative;
     opacity: 1;
 }
+
 /* 
 
 .active.fade-bottom {
@@ -437,7 +438,7 @@ html {
     }
 }
 
-.phone-image-div img{
+.phone-image-div img {
     width: 100%;
     height: auto;
 }
@@ -467,7 +468,7 @@ html {
     font-size: var(--font-size-44);
 }
 
-.container-title h2::after{
+.container-title h2::after {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -547,9 +548,6 @@ html {
     display: grid;
 }
 
-#sponsors{
-    margin-top: 100px;
-}
 
 
 .right-app-panel {
@@ -565,6 +563,7 @@ html {
     align-items: center;
     display: grid;
 }
+
 .bg-product {
     max-width: 320px;
     height: auto;
@@ -653,22 +652,28 @@ html {
 }
 
 @media screen and (max-width: 720px) {
-    .wallsdrobe-app-background, .sw-app-background, .wordaily-app-background {
+
+    .wallsdrobe-app-background,
+    .sw-app-background,
+    .wordaily-app-background {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .right-app-panel {
         width: 280px;
         margin: auto;
         left: auto;
         right: auto;
     }
+
     .left-app-panel {
         width: 280px;
         margin: auto;
         left: auto;
     }
+
     .left-app-panel .bg-phone {
         position: relative;
         margin: auto;
@@ -692,6 +697,38 @@ html {
     }
 }
 
+
+
+.sponsors-title {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+    align-items: center;
+    min-width: 0px;
+    min-height: 0px;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.dioun {
+    width: 10px;
+    height: 10px;
+    border-radius: 25px;
+    background: var(--primary-color);
+    transition: width 0.2s ease 0s;
+    text-size-adjust: 100%;
+}
+
+.sponsors-title h3 {
+    font-size: 22px;
+    max-width: 768px;
+    color: var(--black);
+    font-family: var(--font_2);
+    font-size: var(--font-size-15);
+}
+
 .sponsors {
     max-width: 1320px;
     margin: auto;
@@ -699,11 +736,8 @@ html {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    padding: 40px 20px;
+    padding: 0px 20px;
     margin-bottom: 100px;
-    background-color: var(--white);
-    border-radius: var(--radius, 5px);
-    box-shadow: var(--shadow, 0 1px 4px rgba(0, 0, 0, .6));
 }
 
 .sponsors .sponsor a img {
@@ -983,14 +1017,16 @@ footer .bottom-details .bottom_text {
     position: relative;
     width: 100%;
     height: 500px;
-    padding: 50px 50px 50px 170px; 
+    padding: 50px 50px 50px 170px;
     margin-bottom: 100px;
 }
+
 @media only screen and (max-width: 768px) {
     .contact-section {
         padding: 10px;
     }
 }
+
 .contact-section::before {
     content: "";
     position: absolute;
@@ -1008,13 +1044,15 @@ footer .bottom-details .bottom_text {
     background-size: 100% auto;
     background-attachment: fixed;*/
 }
-#particles{
+
+#particles {
     width: 100%;
     height: 100%;
     left: 0;
     top: 0;
     position: absolute;
 }
+
 .contact-title {
     height: 380px;
     text-align: left;
@@ -1050,7 +1088,7 @@ footer .bottom-details .bottom_text {
     background-color: var(--white);
     border-radius: var(--radius, 5px);
     box-shadow: var(--shadow, 0 1px 4px rgba(0, 0, 0, .6));
-    padding: 20px;    
+    padding: 20px;
     color: var(--black);
     font-family: var(--font_0);
     font-size: 18px;
@@ -1059,13 +1097,14 @@ footer .bottom-details .bottom_text {
     cursor: pointer;
     vertical-align: baseline;
 }
-.send-mail:hover{
+
+.send-mail:hover {
     background-color: transparent;
     color: var(--white);
     border: 3px solid var(--border-color);
 }
 
-.join-discord{
+.join-discord {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1074,11 +1113,13 @@ footer .bottom-details .bottom_text {
     height: 500px;
     margin: auto;
 }
+
 @media only screen and (max-width: 768px) {
     .join-discord {
         padding: 10px;
     }
 }
+
 .join-discord::before {
     content: "";
     position: absolute;
@@ -1092,6 +1133,7 @@ footer .bottom-details .bottom_text {
     object-position: 50% 50%;
     background-repeat: no-repeat;
 }
+
 .jd-title {
     text-align: center;
     display: flex;
@@ -1116,7 +1158,7 @@ footer .bottom-details .bottom_text {
     margin: 20px 0;
 }
 
-.jd-title a{
+.jd-title a {
     text-decoration: none;
     font-size: 1.125rem;
     background-color: var(--primary-color);
@@ -1130,17 +1172,19 @@ footer .bottom-details .bottom_text {
     justify-content: center;
     border: 1px solid var(--primary-color);
 }
-.jd-title a i{
+
+.jd-title a i {
     width: 22px;
 }
 
-.jd-title a:hover{
-    background-color: rgb(35, 33, 51);;
+.jd-title a:hover {
+    background-color: rgb(35, 33, 51);
+    ;
     color: var(--white);
     border: 1px solid var(--primary-color);
 }
 
-.about-home{
+.about-home {
     display: flex;
     position: relative;
     max-width: 100%;
@@ -1177,16 +1221,18 @@ footer .bottom-details .bottom_text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 10% 5% 5% 10%; 
-    
+    padding: 10% 5% 5% 10%;
+
 }
-.about-title h5{
+
+.about-title h5 {
     color: var(--white);
     font-family: var(--font_1);
     font-weight: bold;
     font-size: var(--font-size-14);
 
 }
+
 .about-title h2 {
     max-width: 550px;
     color: var(--white);
@@ -1207,7 +1253,7 @@ footer .bottom-details .bottom_text {
 }
 
 
-.careers-home{
+.careers-home {
     display: flex;
     position: relative;
     max-width: 100%;
@@ -1217,11 +1263,13 @@ footer .bottom-details .bottom_text {
     margin-left: 4%;
     margin-right: 4%;
 }
+
 @media only screen and (max-width: 768px) {
     .careers-home {
         padding: 10px;
     }
 }
+
 .careers-home::before {
     content: "";
     position: absolute;
@@ -1242,16 +1290,18 @@ footer .bottom-details .bottom_text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 10% 5% 5% 10%; 
-    
+    padding: 10% 5% 5% 10%;
+
 }
-.careers-title h5{
+
+.careers-title h5 {
     color: var(--white);
     font-family: var(--font_1);
     font-weight: bold;
     font-size: var(--font-size-14);
 
 }
+
 .careers-title h2 {
     max-width: 550px;
     color: var(--white);
@@ -1271,12 +1321,12 @@ footer .bottom-details .bottom_text {
     margin: 30px 0;
 }
 
-.careers-title p:nth-of-type(2){
+.careers-title p:nth-of-type(2) {
     max-width: 650px;
     font-size: var(--font-size-20);
 }
 
-.careers-container{
+.careers-container {
     max-width: 980px;
     position: relative;
     color: var(--white);
@@ -1289,56 +1339,60 @@ footer .bottom-details .bottom_text {
     contain: content;
 }
 
-.careers-container .bg-color{
+.careers-container .bg-color {
     width: 100%;
     position: absolute;
     background-color: var(--primary-color);
     box-shadow: var(--shadow, 0 1px 4px rgba(0, 0, 0, .6));
-    height:940px;
+    height: 940px;
     z-index: -1;
 }
 
-.cc-title{
-    padding: 50px 0; 
+.cc-title {
+    padding: 50px 0;
 }
 
-.cc-title h1{
+.cc-title h1 {
     font-size: var(--font-size-44);
     font-family: var(--font_2);
 }
-.job-flex{
+
+.job-flex {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
 }
 
-.jobs-section{
+.jobs-section {
     background-color: var(--white);
     border-radius: var(--radius, 5px);
     box-shadow: var(--shadow, 0 1px 4px rgba(0, 0, 0, .6));
     height: 450px;
     margin: 50px;
 }
-.cv-send{
+
+.cv-send {
     margin-top: 100px;
     height: 240px;
 }
-.cv-send h2{
+
+.cv-send h2 {
     color: var(--black);
     font-size: var(--font-size-44);
     font-family: var(--font_2);
     font-weight: bold;
     margin-bottom: 50px;
 }
-.cv-send a{
+
+.cv-send a {
     color: var(--white);
     font-size: var(--font-size-20);
     text-decoration: none;
     background-color: var(--primary-color);
     border-radius: var(--radius, 25px);
-    padding: 20px 10px;    
+    padding: 20px 10px;
     margin: auto;
 }
 
-.cv-send a:hover{
+.cv-send a:hover {
     background-color: var(--black);
 }
