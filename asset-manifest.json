@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yigidosoft.github.io/static/css/main.00adb125.css",
-    "main.js": "/yigidosoft.github.io/static/js/main.5a764cae.js",
+    "main.css": "/yigidosoft.github.io/static/css/main.b4e61da5.css",
+    "main.js": "/yigidosoft.github.io/static/js/main.7dae0434.js",
     "static/media/wordaily-app-background.webp": "/yigidosoft.github.io/static/media/wordaily-app-background.398c468de2e549d9f929.webp",
     "static/media/careers-bg.webp": "/yigidosoft.github.io/static/media/careers-bg.f2f7bfcd5c313da00429.webp",
     "static/media/sw-app-background.webp": "/yigidosoft.github.io/static/media/sw-app-background.845f1866c72f9b007909.webp",
@@ -21,11 +21,11 @@
     "index.html": "/yigidosoft.github.io/index.html",
     "static/media/hr.svg": "/yigidosoft.github.io/static/media/hr.32d544783b2aa8d398f2.svg",
     "static/media/menu.svg": "/yigidosoft.github.io/static/media/menu.680601f8ef5a179a5d7bf16222c9414a.svg",
-    "main.00adb125.css.map": "/yigidosoft.github.io/static/css/main.00adb125.css.map",
-    "main.5a764cae.js.map": "/yigidosoft.github.io/static/js/main.5a764cae.js.map"
+    "main.b4e61da5.css.map": "/yigidosoft.github.io/static/css/main.b4e61da5.css.map",
+    "main.7dae0434.js.map": "/yigidosoft.github.io/static/js/main.7dae0434.js.map"
   },
   "entrypoints": [
-    "static/css/main.00adb125.css",
-    "static/js/main.5a764cae.js"
+    "static/css/main.b4e61da5.css",
+    "static/js/main.7dae0434.js"
   ]
 }
